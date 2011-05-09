@@ -1,0 +1,23 @@
+#Author: Anoop Jacob Thomas <anoopjt@gmail.com>
+#Email: anoopjt@gmail.com
+#Website: http://anoop.caremedia.org
+#License: GNU GPL 3.0 or any later you choose
+#Date: October 2010
+
+The program 'extensify' determines the extension of all files in the
+current working directory and adds the extension to it.  It makes an
+assumption that if a '.' exist in a file name it already has an
+extension and thus does not add extension.  'Extensify' is provided
+with no warranty or anything.
+
+I wrote this script for a friend
+[http://www.flickr.com/photos/awsomangelo], he is a photographer too
+and he had recovered several files from his hard disk. He had around
+8000 files recovered which didn't have extensions. And in GNU/Linux
+box to open a file with a specific application you don't require
+extension, but "Windows" depends on the extension. So he wanted a
+mechanism to add extensions to it. This little program makes a guess
+based on the "mimetype", and then determines its extension.
+
+Handy little tool if you have several files for which you want to add
+the file extension.
